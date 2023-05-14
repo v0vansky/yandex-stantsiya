@@ -1,0 +1,8 @@
+.sound__feature-info {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 64px;
+    white-space: pre-wrap;
+}

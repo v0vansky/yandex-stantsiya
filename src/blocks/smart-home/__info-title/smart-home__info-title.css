@@ -1,0 +1,17 @@
+.smart-home__info-title {
+    margin: 0;
+    font-family: 'YS Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    white-space: pre-wrap;
+    padding-bottom: 24px;
+    max-width: 200px;
+}
+
+/* .smart-home__info-text:last-of-type :first-child{
+    padding-bottom: 16px;
+} */

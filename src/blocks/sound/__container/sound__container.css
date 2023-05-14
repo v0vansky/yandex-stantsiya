@@ -1,0 +1,8 @@
+.sound__container {
+    background-image: url("../../../images/soundwave.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding-left: 240px;
+    position: relative;
+    padding-bottom: 280px;
+}

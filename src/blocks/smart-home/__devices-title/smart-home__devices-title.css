@@ -1,0 +1,11 @@
+.smart-home__devices-title {
+    margin: 0;
+    font-family: 'YS Text';
+    font-style: normal;
+    text-align: left;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 114%;
+    color: #000000;
+    max-width: 285px;
+}

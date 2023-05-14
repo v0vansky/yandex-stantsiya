@@ -1,0 +1,9 @@
+.sound__features {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,374px);
+    justify-content: center;
+    gap: 20px 27px;
+    max-width: 1180px;
+    padding: 176px 0 102px;
+}

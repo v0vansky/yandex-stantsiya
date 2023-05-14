@@ -1,0 +1,11 @@
+.sound__feature {
+    border-radius: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 703px;
+    width: 375px;
+    position: relative;
+    color: white;
+    align-items: center;
+}

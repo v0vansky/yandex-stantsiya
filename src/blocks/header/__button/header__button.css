@@ -1,0 +1,22 @@
+.header__button {
+    font-family: 'YS Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FBFBFD;
+
+    width: 136px;
+    height: 44px;
+    border: none;
+    background: #6337FF;
+    border-radius: 46px;
+    transition: .2s ease-in-out;
+}
+
+.header__button:hover {
+    cursor: pointer;
+    color: black;
+}

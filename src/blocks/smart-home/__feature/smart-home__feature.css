@@ -1,0 +1,16 @@
+.smart-home__feature {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0 0 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.smart-home__feature:first-of-type {
+    grid-column: span 3;
+    padding: 64px 110px;
+}
+
+.smart-home__feature:nth-of-type(2) {
+    padding-left: 110px;
+}

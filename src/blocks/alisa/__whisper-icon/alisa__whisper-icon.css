@@ -1,0 +1,10 @@
+.alisa__whisper-icon {
+    display: flex;
+    position: absolute;
+    left: -53px;
+    width: 29px;
+    height: 29px;
+    background-image: url("../../../images/whisper_icon.svg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+}

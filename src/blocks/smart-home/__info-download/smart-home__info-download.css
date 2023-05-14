@@ -1,0 +1,6 @@
+.smart-home__info-download {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+
+}

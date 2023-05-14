@@ -1,8 +1,10 @@
 {
-  "name": "mesto-react",
+  "name": "yandex-stantsiya",
   "version": "0.1.0",
+  "description": "Тестовое задание ",
+  "author": "Владимир Стенин",
   "private": true,
-  "homepage": "http://v0vansky.github.io/react-mesto-auth",
+  "homepage": "http://v0vansky.github.io/yandex-stantsiya",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.5",

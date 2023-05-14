@@ -1,0 +1,7 @@
+.smart-home__info-text {
+    margin-bottom: 56px;
+}
+
+.smart-home__info-text:last-of-type :first-child{
+    padding-bottom: 16px;
+}

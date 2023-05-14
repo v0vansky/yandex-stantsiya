@@ -1,0 +1,6 @@
+.sound__image-explosion {
+    display: flex;
+    position: absolute;
+    bottom: 46px;
+    right: 0;
+}

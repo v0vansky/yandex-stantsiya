@@ -1,0 +1,8 @@
+.smart-home__devices-image {
+    display: flex;
+    position: absolute;
+    max-width: 507px;
+    max-height: 481px;
+    top: 13px;
+    left: -45px;
+}

@@ -1,0 +1,10 @@
+.smart-home__features {
+    border-radius: 40px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 580px 360px;
+    margin: 0 auto;
+    max-width: 1180px;
+
+}

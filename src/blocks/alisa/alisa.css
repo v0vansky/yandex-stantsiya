@@ -1,0 +1,9 @@
+.alisa {
+    background-image: url("../../images/alisa_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    object-fit: cover;
+    height: 1325px;
+    padding: 66px 240px 0;
+}

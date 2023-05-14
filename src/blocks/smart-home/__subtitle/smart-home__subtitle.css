@@ -1,0 +1,11 @@
+.smart-home__subtitle {
+    margin: 0;
+    font-family: 'YS Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: 0.01em;
+    color: #000000;
+    white-space: pre-wrap;
+}

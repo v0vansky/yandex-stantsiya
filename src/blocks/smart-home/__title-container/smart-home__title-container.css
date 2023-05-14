@@ -1,0 +1,10 @@
+.smart-home__title-container {
+    margin: 0 0 80px 240px;
+    padding-top: 114px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 36px;
+    width: 476px;
+}
