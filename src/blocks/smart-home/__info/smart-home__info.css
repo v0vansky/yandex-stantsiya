@@ -13,13 +13,3 @@
         background-size: cover;
     }
 }
-
-@media screen and (max-width: 900px) {
-    .smart-home__info {
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .smart-home__info {
-    }
-}

@@ -1,7 +1,13 @@
 .smart-home__devices-container {
     justify-self: end;
     display: flex;
-    margin: 0 auto;
+    margin: 0;
     flex-direction: column;
     width: max-content;
+}
+
+@media screen and (max-width: 1280px) {
+    .smart-home__devices-container {
+        margin: 0 auto;
+    }
 }
