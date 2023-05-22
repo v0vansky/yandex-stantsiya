@@ -1,0 +1,9 @@
+.purchase__button_type_buy {
+    color: #FFFFFF;
+    background: #6337FF;
+}
+
+.purchase__button_type_buy:hover {
+    cursor: pointer;
+    background-color: #4126a3;
+}

@@ -5,7 +5,6 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 125%;
-    /* identical to box height, or 40px */
     list-style: none;
     white-space: pre-wrap;
     color: #FFFFFF;
@@ -26,4 +25,30 @@
 .alisa__request:nth-of-type(4) {
     opacity: 0.4;
     padding-bottom: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .alisa__request {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .alisa__request {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .alisa__request {
+        font-size: 18px;
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .alisa__request {
+        font-size: 16px;
+        padding-bottom: 18px;
+    }
 }

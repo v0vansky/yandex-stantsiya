@@ -3,11 +3,11 @@
   min-height: 32px;
   min-width: 135px;
   background-repeat: no-repeat;
-  object-fit: cover;
+  background-size: contain;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1280px) {
   .header__logo {
-
+    min-width: 120px;
   }
 }

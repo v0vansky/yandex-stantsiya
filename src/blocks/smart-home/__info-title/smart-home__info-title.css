@@ -12,6 +12,24 @@
     max-width: 200px;
 }
 
-/* .smart-home__info-text:last-of-type :first-child{
-    padding-bottom: 16px;
-} */
+@media screen and (max-width: 1280px) {
+    .smart-home__info-title {
+        font-size: 22px;
+        max-width: min-content;
+        padding-bottom: 22px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .smart-home__info-title {
+        font-size: 19px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .smart-home__info-title {
+        font-size: 15px;
+        padding-bottom: 17px;
+    }
+}

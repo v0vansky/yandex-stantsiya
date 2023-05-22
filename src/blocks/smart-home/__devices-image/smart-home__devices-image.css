@@ -1,8 +1,63 @@
 .smart-home__devices-image {
     display: flex;
     position: absolute;
-    max-width: 507px;
-    max-height: 481px;
+    width: auto;
+    min-height: 481px;
     top: 13px;
     left: -45px;
+    object-fit: cover;
+    z-index: 2;
+}
+
+
+@media screen and (max-width: 1420px) {
+    .smart-home__devices-image {
+        max-width: 34vw;
+        height: auto;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1420px) {
+    .smart-home__devices-image {
+        min-height: 400px;
+        object-position: -4vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .smart-home__devices-image {
+        min-height: 350px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .smart-home__devices-image {
+        min-height: 280px;
+        object-position: -5vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .smart-home__devices-image {
+        max-width: 100%;
+        min-height: 400px;
+        object-position: right;
+        left: 13vw;
+        top: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .smart-home__devices-image {
+        min-height: 300px;
+        left: 10vw;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .smart-home__devices-image {
+        min-height: 300px;
+        left: 4vw;
+    }
 }

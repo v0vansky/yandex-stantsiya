@@ -6,5 +6,28 @@
     height: 29px;
     background-image: url("../../../images/whisper_icon.svg");
     background-repeat: no-repeat;
-    object-fit: cover;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1280px) {
+    .alisa__whisper-icon {
+        width: 26px;
+        height: 26px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .alisa__whisper-icon {
+        width: 22px;
+        height: 22px;
+        left: -42px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .alisa__whisper-icon {
+        width: 19px;
+        height: 19px;
+        left: -35px;
+    }
 }

@@ -1,0 +1,21 @@
+.alisa__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -38px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+@media screen and (max-width: 1280px) {
+    .alisa__container {
+        margin-top: -58px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .alisa__container {
+        max-width: 1920px;
+        width: 100%;
+    }
+}

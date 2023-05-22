@@ -48,7 +48,7 @@ function SmartHome() {
                 </div>
                 <p className="smart-home__devices-text">Работает по Wi-Fi{'\n'}с лампочками, чайниками, пылесосами и другими устройствами самых разных производителей.</p>
                 <div className="smart-home__devices-image-container">
-                    <img className="smart-home__devices-image" src={DevicesImage} alt="умные устройства" /* style={{backgroundImage: `url(${DevicesImage})`}} */ />
+                    <img className="smart-home__devices-image" src={DevicesImage} alt="умные устройства" />
                 </div>
             </div>
 

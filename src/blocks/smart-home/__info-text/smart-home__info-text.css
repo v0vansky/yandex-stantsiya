@@ -5,3 +5,21 @@
 .smart-home__info-text:last-of-type :first-child{
     padding-bottom: 16px;
 }
+
+@media screen and (max-width: 1280px) {
+    .smart-home__info-text {
+        margin-bottom: 42px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .smart-home__info-text {
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .smart-home__info-text {
+        margin-bottom: 25px;
+    }
+}

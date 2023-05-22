@@ -11,3 +11,30 @@
     color: #121212;
     max-width: 627px;
 }
+
+@media screen and (max-width: 1280px) {
+    .lead__text {
+        font-size: 21px;
+        max-width: 550px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .lead__text {
+        font-size: 18px;
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .lead__text {
+        font-size: 15px;
+        max-width: 370px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .lead__text {
+        font-size: 13px;
+    }
+}

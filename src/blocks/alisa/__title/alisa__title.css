@@ -9,3 +9,21 @@
     letter-spacing: -0.01em;
     max-width: 320px;
 }
+
+@media screen and (max-width: 1280px) {
+    .alisa__title {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .alisa__title {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .alisa__title {
+        font-size: 47px;
+    }
+}

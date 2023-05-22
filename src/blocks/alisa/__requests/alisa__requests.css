@@ -1,6 +1,20 @@
 .alisa__requests {
-    margin: 40px 0 0 628px;
-    padding: 0;
-    max-width: 435.66px;
-    width: 100%;
+  margin: 40px -36px 0 0;
+  padding: 0;
+  max-width: max-content;
+  width: 100%;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 1280px) {
+  .alisa__requests {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .alisa__requests {
+    margin-top: 18px;
+    margin-right: 30px;
+  }
 }

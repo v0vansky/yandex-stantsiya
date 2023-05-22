@@ -4,7 +4,7 @@
   left: 0;
   z-index: 999;
   margin: 0;
-  padding: 0 130px 0;
+  padding: 0 130px;
   display: flex;
   flex-direction: row;
   min-height: 80px;
@@ -13,14 +13,21 @@
   background-color: white;
 }
 
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 1280px) {
   .header {
-
+    min-height: 65px;
+    padding: 0 70px;
   }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 980px) {
   .header {
+    padding: 0 30px;
+  }
+}
 
+@media screen and (max-width: 680px) {
+  .header {
+    justify-content: space-around;
   }
 }

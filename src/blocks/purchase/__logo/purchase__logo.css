@@ -1,0 +1,23 @@
+.purchase__logo {
+    width: auto;
+    height: 50px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1280px) {
+    .purchase__logo {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .purchase__logo {
+        height: 34px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .purchase__logo {
+        height: 28px;
+    }
+}

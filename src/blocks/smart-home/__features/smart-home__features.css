@@ -6,5 +6,25 @@
     grid-template-rows: 580px 360px;
     margin: 0 auto;
     max-width: 1180px;
+}
 
+@media screen and (max-width: 1280px) {
+    .smart-home__features {
+        max-width: calc(100% - 80px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .smart-home__features {
+        grid-template: 520px repeat(3, 300px) / 1fr;
+
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .smart-home__features {
+        font-size: 11px;
+        grid-template: 450px repeat(3, 260px) / 1fr;
+
+    }
 }

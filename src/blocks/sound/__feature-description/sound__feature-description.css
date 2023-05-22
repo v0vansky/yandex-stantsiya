@@ -7,3 +7,15 @@
     letter-spacing: 0.02em;
     text-align: left;
 }
+
+@media screen and (max-width: 1280px) {
+    .sound__feature-description {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .sound__feature-description {
+        font-size: 18px;
+    }
+}

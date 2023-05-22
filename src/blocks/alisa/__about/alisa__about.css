@@ -9,3 +9,24 @@
     letter-spacing: 0.01em;
     max-width: 320px;
 }
+
+@media screen and (max-width: 1280px) {
+    .alisa__about {
+        font-size: 16.5px;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .alisa__about {
+        font-size: 13px;
+        max-width: 220px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .alisa__about {
+        font-size: 11px;
+        max-width: 170px;
+    }
+}

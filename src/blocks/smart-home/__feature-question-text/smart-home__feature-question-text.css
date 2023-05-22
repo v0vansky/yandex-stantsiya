@@ -9,3 +9,21 @@
     color: #FFFFFF;
     max-width: min-content;
 }
+
+@media screen and (max-width: 1280px) {
+    .smart-home__feature-question-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .smart-home__feature-question-text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .smart-home__feature-question-text {
+        font-size: 12px;
+    }
+}

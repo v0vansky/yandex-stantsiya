@@ -1,0 +1,40 @@
+.purchase__button {
+    margin-bottom: 10px;
+    width: 236px;
+    height: 52px;
+    font-family: 'YS Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.01em;
+    border-radius: 46px;
+    border: none;
+    transition: .3s ease-out;
+}
+
+.purchase__button:active {
+    scale: 95%;
+    filter: brightness(80%);
+    transition: .1s ease-out;
+}
+
+@media screen and (max-width: 900px) {
+    .purchase__button {
+        width: 200px;
+        height: 46px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .purchase__button {
+        width: 160px;
+        height: 35px;
+        font-size: 13px;
+    }
+}

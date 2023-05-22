@@ -7,3 +7,24 @@
     line-height: 97px;
     text-align: left; 
 }
+
+@media screen and (max-width: 900px) {
+    .sound__title {
+        padding-top: 150px;
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .sound__title {
+        padding-top: 120px;
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .sound__title {
+        padding-top: 20px;
+        font-size: 50px;
+    }
+}

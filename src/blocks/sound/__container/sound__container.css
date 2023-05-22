@@ -5,4 +5,27 @@
     padding-left: 240px;
     position: relative;
     padding-bottom: 280px;
+    z-index: -2;
+}
+
+@media screen and (max-width: 1280px) {
+    .sound__container {
+        padding-left: 150px;
+        background-size: 100vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .sound__container {
+        padding-left: 50px;
+        padding-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .sound__container {
+        padding-left: 50px;
+        padding-bottom: 100px;
+
+    }
 }

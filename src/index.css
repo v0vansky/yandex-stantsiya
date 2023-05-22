@@ -50,6 +50,7 @@
 @import url("./blocks/alisa/__whisper-icon/alisa__whisper-icon.css");
 @import url("./blocks/alisa/__whisper-title/alisa__whisper-title.css");
 @import url("./blocks/alisa/__whisper/alisa__whisper.css");
+@import url("./blocks/alisa/__container/alisa__container.css");
 
 @import url("./blocks/smart-home/__feature-button/smart-home__feature-button.css");
 @import url("./blocks/smart-home/__feature-link/smart-home__feature-link.css");
@@ -86,4 +87,10 @@
 @import url("./blocks/smart-home/__info-text/smart-home__info-text.css");
 @import url("./blocks/smart-home/__info-title/smart-home__info-title.css");
 
-/* @import url("./blocks"); */
+@import url("./blocks/purchase/purchase.css");
+@import url("./blocks/purchase/__button/purchase__button.css");
+@import url("./blocks/purchase/__button/_type/purchase__button_type_buy.css");
+@import url("./blocks/purchase/__button/_type/purchase__button_type_compare.css");
+@import url("./blocks/purchase/__container/purchase__container.css");
+@import url("./blocks/purchase/__logo/purchase__logo.css");
+@import url("./blocks/purchase/__title/purchase__title.css");

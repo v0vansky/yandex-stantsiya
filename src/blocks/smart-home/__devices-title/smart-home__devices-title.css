@@ -9,3 +9,30 @@
     color: #000000;
     max-width: 285px;
 }
+
+@media screen and (max-width: 1280px) {
+    .smart-home__devices-title {
+        font-size: 28px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .smart-home__devices-title {
+        font-size: 25px;
+        max-width: 170px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .smart-home__devices-title {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .smart-home__devices-title {
+        font-size: 20px;
+        max-width: 140px;
+    }
+}

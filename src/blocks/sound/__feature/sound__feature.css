@@ -3,9 +3,21 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    height: 703px;
-    width: 375px;
+    min-height: 703px;
+    max-width: 375px;
     position: relative;
     color: white;
     align-items: center;
+}
+
+@media screen and (max-width: 1280px) {
+    .sound__feature {
+        min-height: 525px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .sound__feature {
+        max-width: 375px;
+    }
 }

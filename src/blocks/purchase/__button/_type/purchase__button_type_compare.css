@@ -1,0 +1,12 @@
+.purchase__button_type_compare {
+    color: #000000;
+    background: none;
+    border: 1px solid #000000;
+}
+
+.purchase__button_type_compare:hover {
+    cursor: pointer;
+    background:#000000;
+    color: #FFFFFF;
+    opacity: .8;
+}

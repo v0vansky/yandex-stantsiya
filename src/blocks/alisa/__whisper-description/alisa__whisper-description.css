@@ -5,6 +5,25 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 125%;
-    /* or 20px */
     letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 1280px) {
+    .alisa__whisper-description {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .alisa__whisper-description {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .alisa__whisper-description {
+        font-size: 11px;
+        max-width: 180px;
+    }
 }

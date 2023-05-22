@@ -14,3 +14,45 @@
 .smart-home__feature:nth-of-type(2) {
     padding-left: 110px;
 }
+
+@media screen and (max-width: 1280px) {
+    .smart-home__feature {
+        padding: 40px 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .smart-home__feature {
+        padding: 35px 45px;
+    }
+    .smart-home__feature:first-of-type {
+        padding: 40px 45px;
+        grid-column: span 1;
+        background-position: center;
+    }
+    .smart-home__feature:nth-of-type(2) {
+        padding: 35px 45px;
+        background-position: bottom;
+    }
+    .smart-home__feature:nth-of-type(3) {
+        background-position: top;
+    }
+    .smart-home__feature:nth-of-type(4) {
+        background-position: right center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .smart-home__feature {
+        padding: 30px 40px;
+    }
+    .smart-home__feature:first-of-type {
+        grid-column: span 1;
+        padding: 40px 40px;
+    }
+    .smart-home__feature:nth-of-type(2) {
+        padding: 30px 40px;
+        background-position: bottom;
+    }
+}
+

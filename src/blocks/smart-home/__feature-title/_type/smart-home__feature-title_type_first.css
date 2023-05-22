@@ -5,3 +5,21 @@
     line-height: 114%;
     max-width: 250px;
 }
+
+@media screen and (max-width: 1280px) {
+    .smart-home__feature-title_type_first {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .smart-home__feature-title_type_first {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .smart-home__feature-title_type_first {
+        font-size: 23px;
+    }
+}

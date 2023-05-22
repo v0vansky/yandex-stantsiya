@@ -8,3 +8,27 @@
     color: #FFFFFF;
     white-space: pre-wrap;
 }
+
+@media screen and (max-width: 1280px) {
+    .smart-home__info-alisa-text {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .smart-home__info-alisa-text {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .smart-home__info-alisa-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .smart-home__info-alisa-text {
+        font-size: 15px;
+    }
+}

@@ -1,10 +1,35 @@
 .smart-home__title-container {
-    margin: 0 0 80px 240px;
     padding-top: 114px;
+    padding-bottom: 80px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: flex-start;
     gap: 36px;
-    width: 476px;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+    .smart-home__title-container {
+        padding: 90px 0 60px 70px;
+        gap: 28px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .smart-home__title-container {
+        gap: 20px;
+        max-width: 260px;
+        margin: 0 40px;
+        padding: 50px 0 30px 40px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .smart-home__title-container {
+        max-width: 260px;
+        padding: 40px 0 30px 30px;
+    }
 }

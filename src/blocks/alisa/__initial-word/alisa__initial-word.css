@@ -1,9 +1,50 @@
 .alisa__initial-word {
-    margin: 288px 0 0 497px;
+    margin: 450px 197px 0 0;
+    align-self: flex-end;
     font-family: 'YS Text';
     font-style: normal;
     font-weight: 500;
     font-size: 56px;
     line-height: 102%;
     color: #FFFFFF;
+}
+
+@media screen and (min-width: 1550px) {
+    .alisa__initial-word {
+        margin-top: 25vw;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .alisa__initial-word {
+        margin-top: 288px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .alisa__initial-word {
+        font-size: 40px;
+        margin-top: 240px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .alisa__initial-word {
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .alisa__initial-word {
+        font-size: 20px;
+        margin-top: 200px;
+        margin-right: 190px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .alisa__initial-word {
+        font-size: 19px;
+        margin-right: 160px;
+    }
 }

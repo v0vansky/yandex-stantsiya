@@ -3,3 +3,27 @@
     padding-top: 75px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1280px) {
+    .lead__image {
+        max-width: 750px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .lead__image {
+        max-width: 610px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .lead__image {
+        max-width: 420px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .lead__image {
+        max-width: 350px;
+    }
+}

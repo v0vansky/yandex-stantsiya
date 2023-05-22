@@ -6,3 +6,21 @@
     font-size: 32px;
     line-height: 108%;
 }
+
+@media screen and (max-width: 1280px) {
+    .alisa__whisper-title {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .alisa__whisper-title {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .alisa__whisper-title {
+        font-size: 19px;
+    }
+}
