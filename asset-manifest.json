@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/yandex-stantsiya/static/css/main.69c4c64d.css",
+    "main.css": "/yandex-stantsiya/static/css/main.f8d0a112.css",
     "main.js": "/yandex-stantsiya/static/js/main.776695c1.js",
     "static/js/787.13857aca.chunk.js": "/yandex-stantsiya/static/js/787.13857aca.chunk.js",
     "static/media/1440.mp4": "/yandex-stantsiya/static/media/1440.6c8b1c16d00e6eab9d12.mp4",
@@ -66,12 +66,12 @@
     "index.html": "/yandex-stantsiya/index.html",
     "static/media/whisper_icon.svg": "/yandex-stantsiya/static/media/whisper_icon.b79b71616d55e9136945.svg",
     "static/media/alisa_logo.svg": "/yandex-stantsiya/static/media/alisa_logo.6ce6e3a64152d60cfc37bea87568f31f.svg",
-    "main.69c4c64d.css.map": "/yandex-stantsiya/static/css/main.69c4c64d.css.map",
+    "main.f8d0a112.css.map": "/yandex-stantsiya/static/css/main.f8d0a112.css.map",
     "main.776695c1.js.map": "/yandex-stantsiya/static/js/main.776695c1.js.map",
     "787.13857aca.chunk.js.map": "/yandex-stantsiya/static/js/787.13857aca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69c4c64d.css",
+    "static/css/main.f8d0a112.css",
     "static/js/main.776695c1.js"
   ]
 }
